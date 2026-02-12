@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bojja's TV Global</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+</head>
+<body>
+
+<!-- Top Header -->
+<header class="header">
+
+    <div class="header-left">
+        <img src="assets/bpnlogo1.png" alt="Logo 1" class="logo">
+    </div>
+
+    <div class="header-center">
+        Bojja's TV Global
+    </div>
+
+    <div class="header-right">
+        <img src="assets/tvlogo2.png" alt="Logo 2" class="logo">
+    </div>
+
+</header>
+
+
+<!-- Player Wrapper -->
+<div class="playerWrapper">
+
+    <!-- Video Player -->
+    <video id="video" controls autoplay muted></video>
+
+    <!-- Toggle Button -->
+    <button class="toggleBtn" onclick="toggleSidebars()">☰</button>
+
+
+    <!-- Country Sidebar -->
+    <aside class="sidebar left" id="countryBar">
+
+        <div class="sidebar-header">
+            <span>Countries</span>
+            <input type="text"
+                   id="countrySearch"
+                   placeholder="Search countries..."
+                   aria-label="Search countries">
+        </div>
+
+        <div class="sidebar-content">
+            <ul id="countryList"></ul>
+        </div>
+
+    </aside>
+
+
+    <!-- Channel Sidebar -->
+    <aside class="sidebar right" id="channelBar">
+
+        <div class="sidebar-header">
+            <span>Channels</span>
+            <input type="text"
+                   id="channelSearch"
+                   placeholder="Search channels..."
+                   aria-label="Search channels">
+        </div>
+
+        <div class="sidebar-content">
+            <ul id="channelList"></ul>
+        </div>
+
+    </aside>
+
+</div>
+
+
+<script>
+const video = document.getElementById("video");
+let hls;
+
+/* LOAD COUNTRIES */
+async function loadCountries() {
+    const res = await fetch("channels/raw/countries_metadata.json");
+    const data = await res.json();
+
+    const list = document.getElementById("countryList");
+    list.innerHTML = "";
+
+    let firstCountryCode = null;
+
+    for (const code in data) {
+        if (data[code].hasChannels) {
+            let li = document.createElement("li");
+            li.textContent = data[code].country;
+            li.onclick = () => loadChannels(code.toLowerCase());
+            list.appendChild(li);
+
+            if (!firstCountryCode) firstCountryCode = code.toLowerCase();
+        }
+    }
+
+    // Autoplay first channel of first country
+    if (firstCountryCode) loadChannels(firstCountryCode, true);
+}
+
+/* LOAD CHANNELS */
+async function loadChannels(country, autoplay = false) {
+    const res = await fetch(`channels/raw/countries/${country}.json`);
+    const channels = await res.json();
+
+    const bar = document.getElementById("channelList");
+    bar.innerHTML = "";
+
+    channels.forEach((ch, index) => {
+        let url = ch.iptv_urls[0] || ch.youtube_urls[0];
+        if (!url) return;
+
+        let li = document.createElement("li");
+        li.textContent = ch.name;
+        li.onclick = () => playVideo(url);
+
+        bar.appendChild(li);
+
+        // autoplay first channel automatically
+        if (autoplay && index === 0) playVideo(url);
+    });
+
+    // Filter countries
+    document.getElementById("countrySearch").addEventListener("input", function() {
+        const query = this.value.toLowerCase();
+        const items = document.querySelectorAll("#countryList li");
+        items.forEach(li => {
+            li.style.display = li.textContent.toLowerCase().includes(query) ? "" : "none";
+        });
+    });
+
+    // Filter channels
+    document.getElementById("channelSearch").addEventListener("input", function() {
+        const query = this.value.toLowerCase();
+        const items = document.querySelectorAll("#channelList li");
+        items.forEach(li => {
+            li.style.display = li.textContent.toLowerCase().includes(query) ? "" : "none";
+        });
+    });
+
+}
+
+/* PLAY VIDEO */
+function playVideo(url) {
+    /*video.muted = true;*/
+    if (Hls.isSupported() && url.includes(".m3u8")) {
+        if(hls) hls.destroy();
+        hls = new Hls();
+        hls.loadSource(url);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED,function(){ video.play(); });
+    } else {
+        video.src = url;
+        video.play();
+    }
+}
+
+/* SIDEBAR TOGGLE */
+function toggleSidebars(){
+    document.getElementById("countryBar").classList.toggle("hide");
+    document.getElementById("channelBar").classList.toggle("hide");
+}
+
+window.onload = loadCountries;
+
+</script>
+
+</body>
+</html>

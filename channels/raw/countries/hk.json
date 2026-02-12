@@ -1,0 +1,24 @@
+[
+  {
+    "nanoid": "cq6tthzEoEuekR",
+    "name": "Pet Club TV",
+    "iptv_urls": [
+      "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8"
+    ],
+    "youtube_urls": [],
+    "language": "yue",
+    "country": "hk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "3BsCNdHaOVE1Yl",
+    "name": "鳳凰資訊 PhoenixTVNews",
+    "iptv_urls": [],
+    "youtube_urls": [
+      "https://www.youtube-nocookie.com/embed/fN9uYWCjQaw"
+    ],
+    "language": "zho",
+    "country": "hk",
+    "isGeoBlocked": false
+  }
+]

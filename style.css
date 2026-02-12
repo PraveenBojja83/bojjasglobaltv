@@ -1,0 +1,235 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+html,body{
+width:100%;
+height:100%;
+background:#000;
+overflow:hidden;
+color:#fff;
+}
+
+/* =========================
+   HEADER BAR
+========================= */
+
+.header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:60px;
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+padding:0 20px;
+
+z-index:1000;
+
+background:rgba(0,0,0,0.35);
+
+-webkit-backdrop-filter:blur(8px);
+backdrop-filter:blur(8px);
+}
+
+.header-center{
+font-size:22px;
+font-weight:bold;
+text-align:center;
+flex:1;
+}
+
+.header-left,
+.header-right{
+width:120px;
+display:flex;
+align-items:center;
+}
+
+.header-right{
+justify-content:flex-end;
+}
+
+.logo{
+height:50px;
+animation: blink 2.5s infinite;
+  }
+ 
+  @keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* =========================
+   VIDEO PLAYER FULLSCREEN
+========================= */
+
+.playerWrapper{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+
+video{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+background:#000;
+}
+
+/* =========================
+   TOGGLE BUTTON
+========================= */
+
+.toggleBtn{
+position:fixed;
+top:70px;
+left:10px;
+z-index:1001;
+
+background:rgba(0,0,0,0.6);
+border:none;
+color:#fff;
+font-size:15px;
+padding:8px 12px;
+cursor:pointer;
+border-radius:6px;
+}
+
+/* =========================
+   SIDEBARS
+========================= */
+
+.sidebar{
+position:fixed;
+top:70px;
+bottom:0;
+width:200px;
+
+background:transparent;
+
+/*-webkit-backdrop-filter:blur(10px);*/
+/*backdrop-filter:blur(10px);*/
+
+display:flex;
+flex-direction:column;
+
+z-index:999;
+transition:0.3s;
+}
+
+.sidebar.left{ left:0; }
+.sidebar.right{ right:0; }
+
+.sidebar.hide.left{ transform:translateX(-100%); }
+.sidebar.hide.right{ transform:translateX(100%); }
+
+/* =========================
+   SIDEBAR HEADER
+========================= */
+
+.sidebar-header{
+padding:12px;
+font-weight:bold;
+background:transparent;
+-webkit-backdrop-filter:blur(10px);
+backdrop-filter:blur(10px);
+border-bottom:1px solid rgba(255,255,255,0.2);
+
+display:flex;
+flex-direction:column;
+gap:8px;
+align-items:center;   /* centers content horizontally */
+text-align:center;    /* centers text */
+}
+
+/* SEARCH BOX */
+
+.sidebar-header input{
+width:100%;
+padding:6px 8px;
+border:none;
+border-radius:4px;
+outline:none;
+}
+
+/* =========================
+   SIDEBAR CONTENT
+========================= */
+
+.sidebar-content{
+flex:1;
+overflow-y:auto;
+padding:10px;
+
+/* hide scrollbar cross browser */
+-ms-overflow-style:none;
+}
+
+.sidebar-content::-webkit-scrollbar{
+width:0;
+height:0;
+display:none;
+}
+
+/* =========================
+   LIST STYLE
+========================= */
+
+ul{
+list-style:none;
+}
+
+li{
+padding:8px;
+cursor:pointer;
+border-bottom:1px solid rgba(255,255,255,0.1);
+
+text-shadow:0 0 6px rgba(253, 240, 1, 0.8);
+}
+
+li:hover{
+background:rgba(255,255,255,0.15);
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media screen and (max-width:768px){
+
+.header{
+height:60px;
+}
+
+.sidebar{
+width:220px;
+}
+
+.toggleBtn{
+top:70px;
+}
+
+}
