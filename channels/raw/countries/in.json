@@ -958,7 +958,7 @@
   },
   {
     "nanoid": "y5l3cVKS6cfyzU",
-    "name": "BIG TV",
+    "name": "BIG TV Telugu",
     "iptv_urls": [
       "https://cdn-1.pishow.tv/live/1059/master.m3u8",
       "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/big-tv/index.m3u8?ads.vf=lIf8R_GSaTe"
@@ -970,7 +970,7 @@
   },
   {
     "nanoid": "Vs4UoK6EKPQIDo",
-    "name": "BIG TV Telugu News",
+    "name": "BIG TV News",
     "iptv_urls": [],
     "youtube_urls": [
       "https://www.youtube-nocookie.com/embed/M_2UPAcgxrY"

@@ -46,6 +46,7 @@ backdrop-filter:blur(8px);
 font-size:22px;
 font-weight:bold;
 text-align:center;
+text-shadow:6px 0 6px rgba(253, 240, 1, 0.8);
 flex:1;
 }
 
@@ -112,7 +113,7 @@ background:transparent;
 .toggleBtn{
 position:fixed;
 top:70px;
-left:10px;
+left:1px;
 z-index:1001;
 
 background:rgba(0,0,0,0.6);
