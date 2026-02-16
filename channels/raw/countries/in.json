@@ -23,9 +23,9 @@
   },
   {
     "nanoid": "wyDPdeLY6Tg0Hc",
-    "name": "4TV News",
+    "name": "ETV Cinema HD",
     "iptv_urls": [
-      "https://cdn-4.pishow.tv/live/1007/master.m3u8"
+      "https://d1q7j6ha51ro6f.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264-3_cloud_in/index.m3u8"
     ],
     "youtube_urls": [],
     "language": "urd",
@@ -137,9 +137,9 @@
   },
   {
     "nanoid": "er41DmeIs306dY",
-    "name": "35MM",
+    "name": "ETV Andhra Pradesh",
     "iptv_urls": [
-      "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/35mm/index.m3u8?ads.vf=O8CA3y6lvfe"
+      "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8"
     ],
     "youtube_urls": [],
     "language": "",
@@ -181,15 +181,13 @@
   },
   {
     "nanoid": "ICy3Xgo6y92b0g",
-    "name": "Aaj Tak",
+    "name": "GeminiTV",
     "iptv_urls": [
-      "https://feeds.intoday.in/aajtak/api/master.m3u8",
-      "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8"
+      "https://livestream10.sunnxt.com/DolbyVision/GeminiTV_HDR/GeminiTV_HDR_Endpoints/GeminiTV-HDR10-IN-index.m3u8"
     ],
     "youtube_urls": [
-      "https://www.youtube-nocookie.com/embed/Nq2wYlWFucg"
     ],
-    "language": "hin",
+    "language": "tel",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -5299,10 +5297,9 @@
   },
   {
     "nanoid": "tdujCJzBs2qeRR",
-    "name": "T News Telugu",
-    "iptv_urls": [],
+    "name": "ETV Plus HD",
+    "iptv_urls": ["https://d27tnkf60df3v4.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_PLUS_H264-3_cloud_in/index.m3u8"],
     "youtube_urls": [
-      "https://www.youtube-nocookie.com/embed/e_JVjPm96V8"
     ],
     "language": "tel",
     "country": "in",
@@ -5370,7 +5367,6 @@
       "https://cdn-3.pishow.tv/live/1612/master.m3u8"
     ],
     "youtube_urls": [
-      "https://www.youtube-nocookie.com/embed/8kjza8MzPXE"
     ],
     "language": "tam",
     "country": "in",
@@ -5526,7 +5522,7 @@
   },
   {
     "nanoid": "0V4ffffN69jNL9",
-    "name": "TV5 News",
+    "name": "TV5 Telugu News",
     "iptv_urls": [
       "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/tv5_nim_https/110322/tv5/playlist.m3u8"
     ],
