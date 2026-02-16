@@ -142,7 +142,7 @@
       "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8"
     ],
     "youtube_urls": [],
-    "language": "",
+    "language": "tel",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -172,7 +172,7 @@
     "nanoid": "NbTziIpdoPwgQB",
     "name": "Aaj Ki Khabar",
     "iptv_urls": [
-      "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/aaj-ki-khabar/index.m3u8?ads.vf=1lMbqABqc6G"
+      "https://dssp63pjfajz9.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264-3_cloud_in/index.m3u8"
     ],
     "youtube_urls": [],
     "language": "",
@@ -181,9 +181,9 @@
   },
   {
     "nanoid": "ICy3Xgo6y92b0g",
-    "name": "GeminiTV",
+    "name": "ETV Telangana",
     "iptv_urls": [
-      "https://livestream10.sunnxt.com/DolbyVision/GeminiTV_HDR/GeminiTV_HDR_Endpoints/GeminiTV-HDR10-IN-index.m3u8"
+      "https://dssp63pjfajz9.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264-3_cloud_in/index.m3u8"
     ],
     "youtube_urls": [
     ],
@@ -282,7 +282,7 @@
   },
   {
     "nanoid": "gYX0r2cYivN95z",
-    "name": "AASTHA TELUGU",
+    "name": "Aastha Telugu",
     "iptv_urls": [
       "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
     ],
@@ -504,9 +504,9 @@
   },
   {
     "nanoid": "mNsrgueOaZN9Tk",
-    "name": "Angel TV",
+    "name": "ETV Abhiruchi",
     "iptv_urls": [
-      "https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8"
+      "https://d2tbworamivdmb.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264-3_cloud-in/index.m3u8"
     ],
     "youtube_urls": [],
     "language": "tam",
@@ -515,9 +515,9 @@
   },
   {
     "nanoid": "uSctDmIPr59SNQ",
-    "name": "Angel TV Africa",
+    "name": "ETV Life",
     "iptv_urls": [
-      "https://janya-digimix.akamaized.net/vglive-sk-904559/africa/ngrp:angelafrica_all/playlist.m3u8"
+      "https://d2cj1h11htct8o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_LIFE_H264_cloud_in/index.m3u8"
     ],
     "youtube_urls": [],
     "language": "eng",
@@ -526,64 +526,64 @@
   },
   {
     "nanoid": "hJ3iu0hLUptUwg",
-    "name": "Angel TV America",
+    "name": "SVBC 3",
     "iptv_urls": [
-      "https://janya-digimix.akamaized.net/vglive-sk-374850/america/ngrp:angelamerica_all/playlist.m3u8"
+      "https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8"
     ],
     "youtube_urls": [],
-    "language": "tam",
+    "language": "tel",
     "country": "in",
     "isGeoBlocked": false
   },
   {
     "nanoid": "Y8xJ84u4oD4WFi",
-    "name": "Angel TV Arabia",
+    "name": "SVBC 4",
     "iptv_urls": [
-      "https://janya-digimix.akamaized.net/vglive-sk-213167/arabia/ngrp:angelarabia_all/playlist.m3u8"
+      "https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8"
     ],
     "youtube_urls": [],
-    "language": "eng",
+    "language": "tel",
     "country": "in",
     "isGeoBlocked": false
   },
   {
     "nanoid": "OxwvdB2jdThXIm",
-    "name": "Angel TV Australia",
+    "name": "SVBC Sri Venkateswara Bhakti Channel",
     "iptv_urls": [
-      "https://janya-digimix.akamaized.net/vglive-sk-310787/australia/ngrp:angelaustralia_all/playlist.m3u8"
+      "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8"
     ],
     "youtube_urls": [],
-    "language": "eng",
+    "language": "tel",
     "country": "in",
     "isGeoBlocked": false
   },
   {
     "nanoid": "rPGG0rcVL2rrED",
-    "name": "Angel TV Europe",
+    "name": "Hindu Dharmam",
     "iptv_urls": [
-      "https://janya-digimix.akamaized.net/vglive-sk-512011/europe/ngrp:angeleurope_all/playlist.m3u8"
+      "https://cdn-1.pishow.tv/live/959/master.m3u8"
     ],
     "youtube_urls": [],
-    "language": "eng",
+    "language": "tel",
     "country": "in",
     "isGeoBlocked": false
   },
   {
     "nanoid": "f9tX01bn3EYQEs",
-    "name": "Angel TV FarEast",
+    "name": "CVR OM Telugu Spiritual",
     "iptv_urls": [
-      "https://janya-digimix.akamaized.net/vglive-sk-438760/fareast/ngrp:angelfareast_all/playlist.m3u8"
+      "https://cdn-1.pishow.tv/live/957/master.m3u8"
     ],
     "youtube_urls": [],
-    "language": "eng",
+    "language": "tel",
     "country": "in",
     "isGeoBlocked": false
   },
   {
     "nanoid": "djduNfwOatZONT",
-    "name": "Angel TV Hebrew",
+    "name": "CVR Health",
     "iptv_urls": [
-      "https://janya-digimix.akamaized.net/vglive-sk-150533/hebrew/ngrp:angelhebrew_all/playlist.m3u8"
+      "https://cdn-6.pishow.tv/live/395/master.m3u8"
     ],
     "youtube_urls": [],
     "language": "heb",
@@ -3099,6 +3099,7 @@
     ],
     "youtube_urls": [],
     "language": "mal",
+    
     "country": "in",
     "isGeoBlocked": false
   },
@@ -3137,10 +3138,9 @@
   },
   {
     "nanoid": "maCBZ1ENJ0vxPE",
-    "name": "MediaoneTV Live",
-    "iptv_urls": [],
+    "name": "ETV Abhiruchi",
+    "iptv_urls": ["https://d2tbworamivdmb.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264-3_cloud-in/index.m3u8"],
     "youtube_urls": [
-      "https://www.youtube-nocookie.com/embed/-8d8-c0yvyU"
     ],
     "language": "mal",
     "country": "in",
