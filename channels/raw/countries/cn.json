@@ -316,7 +316,7 @@
   },
   {
     "nanoid": "9L7zvQkPrOwgdk",
-    "name": "VOA美国之音",
+    "name": "VOA(Voice of America) 美国之音",
     "iptv_urls": [
       "https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8"
     ],
@@ -349,7 +349,7 @@
   },
   {
     "nanoid": "PQS6mmZySzL6Rf",
-    "name": "上虞1新闻综合",
+    "name": "Shangyu 1 News Summary 上虞1新闻综合",
     "iptv_urls": [
       "https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8"
     ],
@@ -360,7 +360,7 @@
   },
   {
     "nanoid": "2Fb8Um99xfgPRq",
-    "name": "上虞3新商都",
+    "name": "Shangyu 3 New Commercial City 上虞3新商都",
     "iptv_urls": [
       "https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8"
     ],
@@ -371,7 +371,7 @@
   },
   {
     "nanoid": "ZMTYKvEKk1dmYw",
-    "name": "上虞經濟文化",
+    "name": "Shangyu Economy and Culture 上虞經濟文化",
     "iptv_urls": [
       "https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8"
     ],
@@ -382,7 +382,7 @@
   },
   {
     "nanoid": "4gpT2C61YO4gJy",
-    "name": "余姚姚江文化",
+    "name": "Yuyao Yaojiang Culture 余姚姚江文化",
     "iptv_urls": [
       "https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8"
     ],
@@ -393,7 +393,7 @@
   },
   {
     "nanoid": "Z6LINyrJx59mNs",
-    "name": "余姚新闻综合",
+    "name": "Yuyao News Summary 余姚新闻综合",
     "iptv_urls": [
       "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
     ],
@@ -404,7 +404,7 @@
   },
   {
     "nanoid": "Bffe72bDdR8TIN",
-    "name": "农安新闻综合",
+    "name": "Nong'an News Summary 农安新闻综合",
     "iptv_urls": [
       "https://stream2.jlntv.cn/naxw/sd/live.m3u8"
     ],
@@ -415,7 +415,7 @@
   },
   {
     "nanoid": "5VYLQDaYRpvKhu",
-    "name": "前郭综合",
+    "name": "Qianguo Comprehensive 前郭综合",
     "iptv_urls": [
       "https://stream2.jlntv.cn/qg/sd/live.m3u8"
     ],
@@ -426,7 +426,7 @@
   },
   {
     "nanoid": "QH1RSdaU2QocPw",
-    "name": "吉林市新闻综合",
+    "name": "Jilin City News Summary 吉林市新闻综合",
     "iptv_urls": [
       "https://stream2.jlntv.cn/jilin1/sd/live.m3u8"
     ],
@@ -437,7 +437,7 @@
   },
   {
     "nanoid": "V8qtYbeqJ3oiRd",
-    "name": "四平新闻综合",
+    "name": "Siping News Comprehensive 四平新闻综合",
     "iptv_urls": [
       "https://stream2.jlntv.cn/sptv/sd/live.m3u8"
     ],
@@ -448,7 +448,7 @@
   },
   {
     "nanoid": "G8jMlVl14mEiZk",
-    "name": "宿州公共",
+    "name": "Suzhou Public 宿州公共",
     "iptv_urls": [
       "https://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
     ],
@@ -459,7 +459,7 @@
   },
   {
     "nanoid": "LhzYAfOxktXLl3",
-    "name": "宿州新闻综合",
+    "name": "Suzhou News Summary 宿州新闻综合",
     "iptv_urls": [
       "https://live.ahsz.tv/video/s10001-szzh/index.m3u8"
     ],
@@ -470,7 +470,7 @@
   },
   {
     "nanoid": "ez5NBYjpiihwmc",
-    "name": "宿州科教",
+    "name": "Suzhou Science and Education 宿州科教",
     "iptv_urls": [
       "https://live.ahsz.tv/video/s10001-kxjy/index.m3u8"
     ],
@@ -481,7 +481,7 @@
   },
   {
     "nanoid": "0REjP55mYk4y0F",
-    "name": "小猪佩奇 中文官方 - Peppa Pig",
+    "name": "Peppa Pig 小猪佩奇 中文官方",
     "iptv_urls": [],
     "youtube_urls": [
       "https://www.youtube-nocookie.com/embed/wAgcO-FWS6E"
@@ -492,7 +492,7 @@
   },
   {
     "nanoid": "9wRBNHe95BnBON",
-    "name": "嵊州综合",
+    "name": "Shengzhou Comprehensive 嵊州综合",
     "iptv_urls": [
       "https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
     ],
@@ -503,7 +503,7 @@
   },
   {
     "nanoid": "OV9fgTIJjuEnHm",
-    "name": "延边新闻综合",
+    "name": "Yanbian News Summary 延边新闻综合",
     "iptv_urls": [
       "https://stream2.jlntv.cn/jlyb/sd/live.m3u8"
     ],
@@ -514,7 +514,7 @@
   },
   {
     "nanoid": "LWZapZpACANZ13",
-    "name": "新昌休闲影视",
+    "name": "Xinchang Leisure Film and Television 新昌休闲影视",
     "iptv_urls": [
       "https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8"
     ],
@@ -525,7 +525,7 @@
   },
   {
     "nanoid": "4rBoFSFcNpIZxe",
-    "name": "新昌新聞綜合",
+    "name": "Xinchang News Summary 新昌新聞綜合",
     "iptv_urls": [
       "https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8"
     ],
@@ -536,7 +536,7 @@
   },
   {
     "nanoid": "UKPg4OIuLFiPtH",
-    "name": "松原新闻综合",
+    "name": "Songyuan News Summary 松原新闻综合",
     "iptv_urls": [
       "https://stream2.jlntv.cn/sytv/sd/live.m3u8"
     ],
@@ -547,7 +547,7 @@
   },
   {
     "nanoid": "THg2ymDAp3wTLF",
-    "name": "河源综合",
+    "name": "Heyuan Comprehensive 河源综合",
     "iptv_urls": [
       "https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8"
     ],
@@ -558,7 +558,7 @@
   },
   {
     "nanoid": "LkJ7FCk2BbuXtL",
-    "name": "浙江卫视",
+    "name": "Zhejiang Satellite TV 浙江卫视",
     "iptv_urls": [
       "https://play-qukan.cztv.com/live/1758879019692345.m3u8"
     ],
@@ -569,7 +569,7 @@
   },
   {
     "nanoid": "VFiwsFTkgPQkI4",
-    "name": "浙江钱江",
+    "name": "Qianjiang, Zhejiang 浙江钱江",
     "iptv_urls": [
       "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
     ],
@@ -580,7 +580,7 @@
   },
   {
     "nanoid": "LeuYUA2aMVmI2f",
-    "name": "白城新闻综合",
+    "name": "Baicheng News Comprehensive 白城新闻综合",
     "iptv_urls": [
       "https://stream2.jlntv.cn/baicheng1/sd/live.m3u8"
     ],
@@ -591,7 +591,7 @@
   },
   {
     "nanoid": "uf8i2ptAW9zep4",
-    "name": "白山新闻综合",
+    "name": "Baishan News Comprehensive 白山新闻综合",
     "iptv_urls": [
       "https://stream2.jlntv.cn/baishan1/sd/live.m3u8"
     ],
@@ -602,7 +602,7 @@
   },
   {
     "nanoid": "j1PKhARZuXsXE7",
-    "name": "福州广播电视台新闻综合频道 (FZTV-1)",
+    "name": "FZTV-1 福州广播电视台新闻综合频道",
     "iptv_urls": [
       "https://live.zohi.tv/video/s10001-fztv-1/index.m3u8"
     ],
@@ -613,7 +613,7 @@
   },
   {
     "nanoid": "1GnEgBr4piVPn4",
-    "name": "福州广播电视台都市生活频道 (FZTV-3)",
+    "name": "FZTV-3 福州广播电视台都市生活频道",
     "iptv_urls": [
       "https://live.zohi.tv/video/s10001-fztv-3/index.m3u8"
     ],
@@ -624,7 +624,7 @@
   },
   {
     "nanoid": "53xcrNbACNtdim",
-    "name": "福州电视台少儿频道 (FZTV-少儿)",
+    "name": "FZTV - Children 福州电视台少儿频道",
     "iptv_urls": [
       "https://live.zohi.tv/video/s10001-fztv-4/index.m3u8"
     ],
@@ -635,7 +635,7 @@
   },
   {
     "nanoid": "2nS6uDvT5uur0D",
-    "name": "红牛REDBULL TV",
+    "name": "REDBULL TV 红牛",
     "iptv_urls": [
       "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8"
     ],
@@ -646,7 +646,7 @@
   },
   {
     "nanoid": "HGBni7wKrtguXm",
-    "name": "萧山新闻综合",
+    "name": "Xiaoshan News Summary 萧山新闻综合",
     "iptv_urls": [
       "https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8"
     ],
@@ -657,7 +657,7 @@
   },
   {
     "nanoid": "hlJLT7eqdRNqcv",
-    "name": "蕭山生活頻道",
+    "name": "Xiaoshan Life Channel 蕭山生活頻道",
     "iptv_urls": [
       "https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
     ],
@@ -668,7 +668,7 @@
   },
   {
     "nanoid": "NpZu4VK2VQIwa6",
-    "name": "辽源新闻综合",
+    "name": "Liaoyuan News Summary 辽源新闻综合",
     "iptv_urls": [
       "https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8"
     ],
@@ -679,7 +679,7 @@
   },
   {
     "nanoid": "GR8ODXBa5AGfBc",
-    "name": "通化新闻",
+    "name": "Tonghua News 通化新闻",
     "iptv_urls": [
       "https://stream2.jlntv.cn/tonghua1/sd/live.m3u8"
     ],
@@ -690,7 +690,7 @@
   },
   {
     "nanoid": "oNE3puWdpEsxQb",
-    "name": "长春综合",
+    "name": "Changchun Comprehensive 长春综合",
     "iptv_urls": [
       "https://stream2.jlntv.cn/jlcc/sd/live.m3u8"
     ],
@@ -701,7 +701,7 @@
   },
   {
     "nanoid": "0pqCht0rSXqoPv",
-    "name": "集安综合",
+    "name": "Ji'an Comprehensive 集安综合",
     "iptv_urls": [
       "https://stream2.jlntv.cn/ja/sd/live.m3u8"
     ],
@@ -712,7 +712,7 @@
   },
   {
     "nanoid": "6nQrzZYDFKwB5C",
-    "name": "餘姚姚江文化",
+    "name": "Yuyao Yaojiang Culture 餘姚姚江文化",
     "iptv_urls": [
       "https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8"
     ],
