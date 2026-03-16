@@ -5949,12 +5949,11 @@
   },
   {
     "nanoid": "c76PMA5xU1p64o",
-    "name": "Zee Business",
-    "iptv_urls": [],
+    "name": "Zee Telugu News",
+    "iptv_urls": ["https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8"],
     "youtube_urls": [
-      "https://www.youtube-nocookie.com/embed/m4a6VLKUNB0"
     ],
-    "language": "hin",
+    "language": "tel",
     "country": "in",
     "isGeoBlocked": false
   },
